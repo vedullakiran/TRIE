@@ -145,32 +145,3 @@ int main()
         
         }while(ch!=-1);
 }
-
-/*int main()
-{
-        
-        string str;
-        Trie obj;
-        
-        while(1)
-        {
-                cout<<"Enter the words(-1 to exit)\n";
-                cin>>str;
-                if(str.compare("-1")==0)
-                        break;
-                obj.insertString(str);
-        }
-        
-        
-        while(1)
-        {
-                cout<<"Enter the words to search(-1 to exit)\n";
-                cin>>str;
-                if(str.compare("-1")==0)
-                        break;
-                else if(obj.searchDic(str))
-                          cout<<"YES\n";
-                else
-                        cout<<"No\n";
-        }
-}*/
